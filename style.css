@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Zen Dots', cursive;
+}
+
+.d-flex{
+    display: flex;
+    
+}
+
+header{
+    height: 11vh;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+div.brand{
+    margin-left: 2rem;
+    flex-basis: auto;
+}
+
+img.logo{
+    width: 50px;
+}
+
+div.brand>h1{
+    align-self: center;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+
+input#btn{
+    font-size: 1rem;
+    margin-right: 2rem;
+    padding: .1rem 1.2rem;
+    font-family: 'Zen Dots', cursive;
+    border: 2px solid magenta;
+    border-radius: 5px;
+    background-color: white;
+    color: #02023f;
+}
+
+main{
+    background-color: #02023f;
+    height: 84vh;
+    align-items: center;
+}
+
+div.grid{
+    display: none;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 430px;
+    height: 430px;
+    border: 2px solid magenta;
+    cursor: crosshair;
+}
+
+div.grid.active{
+    display: flex;
+}
+
+div.square{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 2px solid magenta;
+    color: white;
+    font-size: .9rem;
+    text-align: center;
+    padding-top: .85rem;
+    
+}
+
+
+div.square.clicked{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 2px solid magenta;
+    background-color: lawngreen;
+    color: black;
+    
+}
+
+footer{
+    margin-right: 1rem;
+    justify-content: flex-end;
+    align-items: center;
+    height: 5vh;
+    font-size: 1.2rem;
+}
+
+p>span{
+    color:orangered;
+}
+
