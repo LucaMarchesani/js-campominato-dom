@@ -87,6 +87,15 @@ div.square.clicked{
     
 }
 
+div.square.clicked-boom{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 2px solid magenta;
+    background-color: red;
+    color: black;
+    
+}
+
 footer{
     margin-right: 1rem;
     justify-content: flex-end;
