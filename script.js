@@ -61,6 +61,7 @@ for (let i = 1; i <= 100; i++) {
             newSquare.classList.add('clicked-boom');
             // faccio paritre un alert con il relativo punteggio 
             alert('Hai fatto boom' + ' il tuo punteggio è di: ' + score);
+            location.reload();
         } else{
              // altrimenti aggiungo la classe clicked 
             newSquare.classList.add('clicked');
@@ -73,23 +74,3 @@ for (let i = 1; i <= 100; i++) {
         }
     });
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
